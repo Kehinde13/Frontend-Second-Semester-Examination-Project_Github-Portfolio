@@ -13,15 +13,15 @@ import Layout from './Components/Layout';
 const router = createBrowserRouter([
  {
   element: <Layout />, 
+  errorElement: <ErrorPage />,
   children:[
     {
       path: '/',
-      element: <App /> , 
-      errorElement: <ErrorPage />,
+      element: <App /> ,   
     },
     {
-      path: '/singleRepo/:name', 
-      element: <SingleRepo />
+      path: '/:name', 
+      element: <SingleRepo />,
     },
   ]
  }
@@ -32,5 +32,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
-/*   
-   */
+
