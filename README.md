@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/Kehinde13/Frontend-Second-Semester-Examination-Project_Github-Portfolio)
-- [Live Site URL](https://kehinde13.github.io/E-commerce/)
+- [Live Site URL](https://kehindegithubportfolio.netlify.app/)
 
 
 ## My process
