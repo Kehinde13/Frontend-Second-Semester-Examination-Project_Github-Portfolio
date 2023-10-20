@@ -1,8 +1,56 @@
-# React + Vite
+# Frontend-Second-Semester-Examination-Project
+## Github-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the AltSchool second semester Examination Project, Question 1: GitHub Portfolio
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See a page with a list of all my repositories
+- See another page showing data for a single repo clicked from the page showing all the repos
+- See an error 404 Page if the page does not exist
+
+
+
+### Links
+
+- [Solution URL](https://github.com/Kehinde13/Frontend-Second-Semester-Examination-Project_Github-Portfolio)
+- [Live Site URL](https://kehinde13.github.io/E-commerce/)
+
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- TailwindCSS
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- React Router V6
+- GitHub API
+
+### What I learned
+
+- I used this project as an opportunity to practise React router V6 and to enhance my react knowledge in general
+- I practised my error handling also
+- I also practised working with the github API 
+
+## Author
+
+- Github - [Balogun Kehinde] https://github.com/Kehinde13

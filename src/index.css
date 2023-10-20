@@ -10,6 +10,8 @@
     }
 }
 
+
+/* Spinner */
 .loader {
     margin: 20px auto;
     border: 16px solid #f3f3f3; 
@@ -23,4 +25,12 @@
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+  }
+
+  /* lists */
+  li {
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 10px auto;
+    border-radius: 10px;
   }
