@@ -18,17 +18,16 @@ function singleRepo() {
         })
         .then((response) => {
           setRepo(response.data);
-          setLoading(false);
         })
         .catch((error) => {
           alert("error fetching data:" + error);
-        });
+        })
+        .finally(() => {
+          setLoading(false);
+        })
     })();
   }, [repo]);
 
-  useEffect(() => {
-     
-  })
 
   return (
     <div className="w-full">
@@ -65,9 +64,11 @@ function singleRepo() {
                 rel="noopener noreferrer"
               >
                 <li className="hover:bg-slate-500 hover:text-white hover:border-none">
-                  Link to Github Repository
+                 Github Repository
                 </li>
               </a>
+              <li>Language: {repo.language}</li>
+              {repo.description ? <li>{repo.description}</li> : ""}
               <li>Visibility: {repo.visibility}</li>
               <li>Forks: {repo.forks}</li>
               <li>Open issues: {repo.open_issues}</li>
