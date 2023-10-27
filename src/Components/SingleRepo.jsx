@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import { Link } from "react-router-dom";
 
 function singleRepo() {
   const [repo, setRepo] = useState([]);
   const [loading, setLoading] = useState(true);
   const { name } = useParams();
+  const navigate = useNavigate()
 
   useEffect(() => {
     (() => {
@@ -19,8 +20,8 @@ function singleRepo() {
         .then((response) => {
           setRepo(response.data);
         })
-        .catch((error) => {
-          alert("error fetching data:" + error);
+        .catch(() => {
+          navigate('/ErrorRepo')
         })
         .finally(() => {
           setLoading(false);

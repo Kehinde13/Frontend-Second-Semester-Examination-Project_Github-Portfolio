@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Repo from "./Repo";
+import Search from "./Search";
 
 
 function Main() {
@@ -27,6 +28,7 @@ function Main() {
     <div className="mt-32 px-2">
       <div>
         <h1 className="text-center">These are my GitHub repositories</h1>
+        <Search />
         <div className="sm:w-fit md:w-2/3 mx-auto border my-5 p-5 rounded-sm border-black">
           {repos.length > 0 ? (
             repos.map((repo) => (

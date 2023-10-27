@@ -11,6 +11,7 @@ import App from './App';
 import SingleRepo from './Components/singleRepo';
 import Layout from './Components/Layout';
 import Error404Page from './Components/Error404Page';
+import ErrorRepo from './Components/ErrorRepo';
 
 const router = createBrowserRouter([
  {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
     {
       path: '*',
       element: <Error404Page />
+    }, 
+    {
+      path: '/ErrorRepo',
+      element: <ErrorRepo />
     }
   ]
  }
