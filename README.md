@@ -23,6 +23,8 @@ Users should be able to:
 - See a page with a list of all my repositories
 - See another page showing data for a single repo clicked from the page showing all the repos
 - See an error 404 Page if the page does not exist
+- Search for any of my repositories with the search bar
+- See an error page if the searched repository does not exist
 
 
 
@@ -44,12 +46,14 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - React Router V6
 - GitHub API
+- GSAP animation
 
 ### What I learned
 
 - I used this project as an opportunity to practise React router V6 and to enhance my react knowledge in general
 - I practised my error handling also
 - I also practised working with the github API 
+- I got to work with GSAP animation for the first time
 
 ## Author
 
