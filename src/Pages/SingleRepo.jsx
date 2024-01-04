@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router";
 import { Link } from "react-router-dom";
 
-function singleRepo() {
+function SingleRepo() {
   const [repo, setRepo] = useState([]);
   const [loading, setLoading] = useState(true);
   const { name } = useParams();
@@ -27,7 +27,7 @@ function singleRepo() {
           setLoading(false);
         })
     })();
-  }, [repo]);
+  }, );
 
 
   return (
@@ -84,4 +84,4 @@ function singleRepo() {
   );
 }
 
-export default singleRepo;
+export default SingleRepo;
